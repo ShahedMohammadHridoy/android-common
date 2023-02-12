@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Compoments</string>
+    <string name="button">Button</string>
+    <string name="common">Common</string>
+    <string name="textview">TextView</string>
+    <string name="imageview">ImageView</string>
+</resources>
