@@ -6,11 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button textViewButton;
+    Button textViewButton, buttonButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +17,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textViewButton = findViewById(R.id.text_view_button);
-        textViewButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonButton = findViewById(R.id.button_button);
 
-                Intent intent = new Intent(MainActivity.this, TextViewActivity.class);
-                startActivity(intent);
 
-            }
+        textViewButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TextViewActivity.class);
+            startActivity(intent);
+        });
+
+        buttonButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ButtonActivity.class);
+            startActivity(intent);
         });
 
     }
