@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageViewButton.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ImageViewActivity.class);
+            startActivity(intent);
         });
 
     }
