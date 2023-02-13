@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button textViewButton, buttonButton;
+    Button textViewButton, buttonButton, imageViewButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         textViewButton = findViewById(R.id.text_view_button);
         buttonButton = findViewById(R.id.button_button);
+        imageViewButton = findViewById(R.id.button_image_view);
 
 
         textViewButton.setOnClickListener(v -> {
@@ -28,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         buttonButton.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ButtonActivity.class);
             startActivity(intent);
+        });
+
+        imageViewButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ImageViewActivity.class);
         });
 
     }
