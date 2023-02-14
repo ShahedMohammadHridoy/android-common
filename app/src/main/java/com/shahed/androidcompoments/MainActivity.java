@@ -1,14 +1,14 @@
 package com.shahed.androidcompoments;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
-    Button textViewButton, buttonButton, imageViewButton;
+    AppCompatButton textViewButton, buttonButton, imageViewButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
