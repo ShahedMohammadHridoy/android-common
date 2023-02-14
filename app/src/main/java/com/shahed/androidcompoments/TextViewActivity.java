@@ -1,10 +1,8 @@
 package com.shahed.androidcompoments;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import java.util.Objects;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TextViewActivity extends AppCompatActivity {
 
