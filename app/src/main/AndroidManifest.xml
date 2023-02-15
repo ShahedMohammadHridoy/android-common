@@ -12,17 +12,21 @@
         android:theme="@style/Theme.AndroidCompoments"
         tools:targetApi="31">
         <activity
-            android:parentActivityName=".MainActivity"
+            android:name=".CommonActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ImageViewActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".CommonActivity" />
         <activity
             android:name=".ButtonActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".CommonActivity" />
         <activity
             android:name=".TextViewActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".CommonActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

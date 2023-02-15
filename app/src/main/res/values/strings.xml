@@ -10,4 +10,7 @@
     <string name="fragmentContainerView">FragmentContainerView</string>
     <string name="scrollView">ScrollView</string>
     <string name="switch_txt">Switch</string>
+    <string name="text">Text</string>
+    <string name="plain_text">Plain Text</string>
+    <string name="password">password</string>
 </resources>
