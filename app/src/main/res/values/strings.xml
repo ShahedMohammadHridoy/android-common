@@ -13,4 +13,11 @@
     <string name="text">Text</string>
     <string name="plain_text">Plain Text</string>
     <string name="password">password</string>
+    <string name="buttons">Buttons</string>
+    <string name="widgets">Widgets</string>
+    <string name="layouts">Layouts</string>
+    <string name="containers">Containers</string>
+    <string name="helpers">Helpers</string>
+    <string name="google">Google</string>
+    <string name="legacy">Legacy</string>
 </resources>
