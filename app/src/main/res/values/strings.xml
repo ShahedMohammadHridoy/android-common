@@ -23,4 +23,6 @@
     <string name="password_numeric">Password (Numeric)</string>
     <string name="image_button">ImageButton</string>
     <string name="chip_group">ChipGroup</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
 </resources>

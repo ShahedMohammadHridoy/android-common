@@ -36,7 +36,7 @@
             android:exported="false"
             android:parentActivityName=".RootCommonActivity" />
         <activity
-            android:name=".ButtonActivity"
+            android:name=".ButtonsButtonActivity"
             android:exported="false"
             android:parentActivityName=".RootCommonActivity" />
         <activity

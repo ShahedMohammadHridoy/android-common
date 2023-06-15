@@ -27,7 +27,7 @@ public class RootCommonActivity extends AppCompatActivity {
         });
 
         buttonButton.setOnClickListener(v -> {
-            Intent intent = new Intent(RootCommonActivity.this, ButtonActivity.class);
+            Intent intent = new Intent(RootCommonActivity.this, ButtonsButtonActivity.class);
             startActivity(intent);
         });
 
