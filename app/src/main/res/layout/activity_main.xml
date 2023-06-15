@@ -19,35 +19,45 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
-            <Button
-                android:id="@+id/common_button"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="@string/common"
-                android:textAllCaps="false"
-                android:textSize="20sp" />
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-            <Button
-                android:id="@+id/button_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="@string/text"
-                android:textAllCaps="false"
-                android:textSize="20sp" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_common"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg"
+                    android:padding="10dp"
+                    android:text="@string/common"
+                    android:textAllCaps="false"
+                    android:textColor="#00838F" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="@string/buttons"
-                android:textAllCaps="false"
-                android:textSize="20sp" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="10dp"
+                    android:text="@string/text"
+                    android:textAllCaps="false"
+                    android:textColor="#00838F" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_bg"
+                    android:text="@string/buttons"
+                    android:textAllCaps="false"
+                    android:textColor="#00838F" />
+
+            </LinearLayout>
+
 
             <Button
                 android:layout_width="wrap_content"

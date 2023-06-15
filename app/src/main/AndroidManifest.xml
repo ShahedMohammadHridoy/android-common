@@ -12,26 +12,37 @@
         android:theme="@style/Theme.AndroidCompoments"
         tools:targetApi="31">
         <activity
-            android:label="Text"
-            android:name=".TextActivity"
+            android:name=".ButtonsSwitchActivity"
             android:exported="false"
+            android:label="Switch"
+            android:parentActivityName=".RootButtonActivity" />
+        <activity
+            android:name=".RootButtonActivity"
+            android:exported="false"
+            android:label="Buttons"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".CommonActivity"
+            android:name=".RootTextActivity"
             android:exported="false"
+            android:label="Text"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RootCommonActivity"
+            android:exported="false"
+            android:label="Common"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ImageViewActivity"
             android:exported="false"
-            android:parentActivityName=".CommonActivity" />
+            android:parentActivityName=".RootCommonActivity" />
         <activity
             android:name=".ButtonActivity"
             android:exported="false"
-            android:parentActivityName=".CommonActivity" />
+            android:parentActivityName=".RootCommonActivity" />
         <activity
             android:name=".TextViewActivity"
             android:exported="false"
-            android:parentActivityName=".CommonActivity" />
+            android:parentActivityName=".RootCommonActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -12,7 +12,7 @@
     <string name="switch_txt">Switch</string>
     <string name="text">Text</string>
     <string name="plain_text">Plain Text</string>
-    <string name="password">password</string>
+    <string name="password">Password</string>
     <string name="buttons">Buttons</string>
     <string name="widgets">Widgets</string>
     <string name="layouts">Layouts</string>
@@ -20,4 +20,7 @@
     <string name="helpers">Helpers</string>
     <string name="google">Google</string>
     <string name="legacy">Legacy</string>
+    <string name="password_numeric">Password (Numeric)</string>
+    <string name="image_button">ImageButton</string>
+    <string name="chip_group">ChipGroup</string>
 </resources>
