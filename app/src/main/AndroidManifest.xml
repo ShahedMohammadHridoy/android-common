@@ -12,6 +12,11 @@
         android:theme="@style/Theme.AndroidCompoments"
         tools:targetApi="31">
         <activity
+            android:label="Text"
+            android:name=".TextActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".CommonActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
