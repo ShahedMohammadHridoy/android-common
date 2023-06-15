@@ -1,4 +1,4 @@
-package com.shahed.androidcompoments;
+package com.shahed.androidcomponents;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -9,8 +9,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidCompoments"
+        android:theme="@style/Theme.AndroidComponents"
         tools:targetApi="31">
+        <activity
+            android:name=".ButtonsImageButtonActivity"
+            android:exported="false"
+            android:label="@string/image_button"
+            android:parentActivityName=".RootButtonActivity" />
         <activity
             android:name=".ButtonsSwitchActivity"
             android:exported="false"
@@ -38,10 +43,12 @@
         <activity
             android:name=".ButtonsButtonActivity"
             android:exported="false"
+            android:label="@string/button"
             android:parentActivityName=".RootCommonActivity" />
         <activity
             android:name=".TextViewActivity"
             android:exported="false"
+            android:label="@string/textview"
             android:parentActivityName=".RootCommonActivity" />
         <activity
             android:name=".MainActivity"

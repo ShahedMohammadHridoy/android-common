@@ -1,4 +1,4 @@
-package com.shahed.androidcompoments;
+package com.shahed.androidcomponents;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;

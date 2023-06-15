@@ -1,14 +1,14 @@
-package com.shahed.androidcompoments;
+package com.shahed.androidcomponents;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class RootTextActivity extends AppCompatActivity {
+public class ImageViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_root_text);
+        setContentView(R.layout.activity_image_view);
     }
 }
