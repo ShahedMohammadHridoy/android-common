@@ -38,4 +38,5 @@
     <string name="warning_message">You\'re about to exit the app. Are you sure want to exit?</string>
     <string name="exit">Exit</string>
     <string name="cancel">Cancel</string>
+    <string name="array_to_json">Array to JSON</string>
 </resources>
