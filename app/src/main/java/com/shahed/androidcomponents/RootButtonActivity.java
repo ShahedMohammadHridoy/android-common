@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class RootButtonActivity extends AppCompatActivity {
 
-    Button buttonsButton, buttonsSwitch, buttonsImageButton;
+    Button buttonsButton, buttonsSwitch, buttonsImageButton, buttonsCheckbox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,17 +19,22 @@ public class RootButtonActivity extends AppCompatActivity {
         buttonsButton = findViewById(R.id.buttons_button);
         buttonsImageButton = findViewById(R.id.buttons_image_button);
         buttonsSwitch = findViewById(R.id.buttons_switch);
+        buttonsCheckbox = findViewById(R.id.buttons_checkbox);
 
         buttonsButton.setOnClickListener(view -> {
-            Intent intent = new Intent(RootButtonActivity.this, ButtonsButtonActivity.class);
+            Intent intent = new Intent(this, ButtonsButtonActivity.class);
             startActivity(intent);
         });
         buttonsImageButton.setOnClickListener(view -> {
-            Intent intent = new Intent(RootButtonActivity.this, ButtonsImageButtonActivity.class);
+            Intent intent = new Intent(this, ButtonsImageButtonActivity.class);
             startActivity(intent);
         });
         buttonsSwitch.setOnClickListener(view -> {
-            Intent intent = new Intent(RootButtonActivity.this, ButtonsSwitchActivity.class);
+            Intent intent = new Intent(this, ButtonsSwitchActivity.class);
+            startActivity(intent);
+        });
+        buttonsCheckbox.setOnClickListener(view -> {
+            Intent intent = new Intent(this, ButtonsCheckBoxActivity.class);
             startActivity(intent);
         });
 

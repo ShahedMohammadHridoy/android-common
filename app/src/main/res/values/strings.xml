@@ -25,4 +25,13 @@
     <string name="chip_group">ChipGroup</string>
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="chip">Chip</string>
+    <string name="radio_group">RadioGroup</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="toogle_button">ToogleButton</string>
+    <string name="floating_action_button">FloatingActionButton</string>
+    <string name="samsung">Samsung</string>
+    <string name="nokia">Nokia</string>
+    <string name="iphone">Iphone</string>
 </resources>

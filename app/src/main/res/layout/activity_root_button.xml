@@ -61,7 +61,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_bg"
-                android:text="@string/button"
+                android:text="@string/chip"
+                android:textAllCaps="false"
+                android:textColor="#00838F" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttons_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_bg"
+                android:text="@string/checkbox"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
 
@@ -70,16 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/button_bg"
-                android:text="@string/button"
-                android:textAllCaps="false"
-                android:textColor="#00838F" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="@drawable/button_bg"
-                android:text="@string/button"
+                android:text="@string/radio_group"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
         </LinearLayout>
@@ -95,7 +96,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_bg"
-                android:text="@string/button"
+                android:padding="10dp"
+                android:text="@string/radio_button"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
 
@@ -104,7 +106,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/button_bg"
-                android:text="@string/button"
+                android:padding="10dp"
+                android:text="@string/toogle_button"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
 
@@ -130,7 +133,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_bg"
-                android:text="@string/button"
+                android:padding="10dp"
+                android:text="@string/floating_action_button"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
 

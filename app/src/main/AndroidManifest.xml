@@ -12,6 +12,12 @@
         android:theme="@style/Theme.AndroidComponents"
         tools:targetApi="31">
         <activity
+            android:name=".ButtonsCheckBoxActivity"
+            android:exported="false"
+            android:label="@string/checkbox"
+            android:parentActivityName=".RootButtonActivity" />
+
+        <activity
             android:name=".ButtonsImageButtonActivity"
             android:exported="false"
             android:label="@string/image_button"
