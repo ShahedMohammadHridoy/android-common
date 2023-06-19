@@ -107,7 +107,7 @@
                 android:layout_marginStart="10dp"
                 android:background="@drawable/button_bg"
                 android:padding="10dp"
-                android:text="@string/toogle_button"
+                android:text="@string/toggle_button"
                 android:textAllCaps="false"
                 android:textColor="#00838F" />
 

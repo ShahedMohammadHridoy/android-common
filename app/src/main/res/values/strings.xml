@@ -29,9 +29,13 @@
     <string name="radio_group">RadioGroup</string>
     <string name="radio_button">RadioButton</string>
     <string name="checkbox">CheckBox</string>
-    <string name="toogle_button">ToogleButton</string>
+    <string name="toggle_button">ToggleButton</string>
     <string name="floating_action_button">FloatingActionButton</string>
     <string name="samsung">Samsung</string>
     <string name="nokia">Nokia</string>
     <string name="iphone">Iphone</string>
+    <string name="warning">Warning</string>
+    <string name="warning_message">You\'re about to exit the app. Are you sure want to exit?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
 </resources>
