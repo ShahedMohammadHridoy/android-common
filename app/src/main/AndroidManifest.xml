@@ -12,8 +12,15 @@
         android:theme="@style/Theme.AndroidComponents"
         tools:targetApi="31">
         <activity
+            android:name=".SpinnerActivity"
+            android:exported="false"
+            android:label="@string/spinner"
+            android:parentActivityName=".RootContainersActivity" />
+        <activity
             android:name=".RootContainersActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/containers"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".arraytojson.RootArrayToJsonActivity"
             android:exported="false" />

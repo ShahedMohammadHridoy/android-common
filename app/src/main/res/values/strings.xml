@@ -39,4 +39,5 @@
     <string name="exit">Exit</string>
     <string name="cancel">Cancel</string>
     <string name="array_to_json">Array to JSON</string>
+    <string name="spinner">Spinner</string>
 </resources>
