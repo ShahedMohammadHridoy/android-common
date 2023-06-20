@@ -11,7 +11,7 @@ import com.shahed.androidcomponents.arraytojson.RootArrayToJsonActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button_common, button_text, button_button, button_array_to_json;
+    Button buttonCommon, buttonText, buttonButton, buttonContainers, buttonArrayToJson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,28 +19,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        Initialization
-        button_common = findViewById(R.id.button_common);
-        button_text = findViewById(R.id.button_text);
-        button_button = findViewById(R.id.button_button);
-        button_array_to_json = findViewById(R.id.button_array_to_json);
+        buttonCommon = findViewById(R.id.button_common);
+        buttonText = findViewById(R.id.button_text);
+        buttonButton = findViewById(R.id.button_button);
+        buttonContainers = findViewById(R.id.button_containers);
+        buttonArrayToJson = findViewById(R.id.button_array_to_json);
 
-
-        button_common.setOnClickListener(v -> {
-            Intent intent = new Intent(this, RootCommonActivity.class);
-            startActivity(intent);
-        });
-        button_text.setOnClickListener(view -> {
-            Intent intent = new Intent(this, RootTextActivity.class);
-            startActivity(intent);
-        });
-        button_button.setOnClickListener(view -> {
-            Intent intent = new Intent(this, RootButtonActivity.class);
-            startActivity(intent);
-        });
-        button_array_to_json.setOnClickListener(view -> {
-            Intent intent = new Intent(this, RootArrayToJsonActivity.class);
-            startActivity(intent);
-        });
+//        Click listener
+        buttonCommon.setOnClickListener(v -> startActivity(new Intent(this, RootCommonActivity.class)));
+        buttonText.setOnClickListener(view -> startActivity(new Intent(this, RootTextActivity.class)));
+        buttonButton.setOnClickListener(view -> startActivity(new Intent(this, RootButtonActivity.class)));
+        buttonContainers.setOnClickListener(view -> startActivity(new Intent(this, RootContainersActivity.class)));
+        buttonArrayToJson.setOnClickListener(view -> startActivity(new Intent(this, RootArrayToJsonActivity.class)));
 
     }
 

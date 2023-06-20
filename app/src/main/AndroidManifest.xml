@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AndroidComponents"
         tools:targetApi="31">
         <activity
+            android:name=".RootContainersActivity"
+            android:exported="false" />
+        <activity
             android:name=".arraytojson.RootArrayToJsonActivity"
             android:exported="false" />
         <activity

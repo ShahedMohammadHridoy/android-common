@@ -86,6 +86,7 @@
                     android:textColor="#00838F" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_containers"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
